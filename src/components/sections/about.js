@@ -125,7 +125,14 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Java',
+    'MySQL',
+    'Spring Boot',
+    'JPA/Hibernate',
+    'Spring (IOC, JDBC, AOP, ORM)',
+    'Maven',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,9 +142,9 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Sahit and I enjoy creating things that live on the internet. 
-              Meticulous Java Developer holding a Bachelor's degree and possessing over 1 year of 
-              hands-on expertise in creating and maintaining immaculate RESTful web services using 
+              Hello! My name is Sahit and I enjoy creating things that live on the internet.
+              Meticulous Java Developer holding a Bachelor's degree and possessing over 1 year of
+              hands-on expertise in creating and maintaining immaculate RESTful web services using
               Java Stack technology.
             </p>
 

@@ -6,28 +6,24 @@ module.exports = {
       name: 'GitHub',
       url: 'https://github.com/sahitberisha',
     },
-    // {
-    //   name: 'Instagram',
-    //   url: 'https://www.instagram.com/bchiang7',
-    // },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/sahitberisha11',
-    },
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/sahitberisha',
     },
-    // {
-    //   name: 'Codepen',
-    //   url: 'https://codepen.io/bchiang7',
-    // },
+    {
+      name: 'Twitter',
+      url: 'https://twitter.com/sahitberisha11',
+    },
   ],
 
   navLinks: [
     {
       name: 'About',
       url: '/#about',
+    },
+    {
+      name: 'Education',
+      url: '/#education',
     },
     {
       name: 'Experience',

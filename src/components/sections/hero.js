@@ -59,15 +59,21 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Sahit Berisha.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const one = (
+    <h1>
+      Hi there!{' '}
+      <span role="img" aria-label="waving-hand">
+        👋🏼
+      </span>
+    </h1>
+  );
+  const two = <h2 className="big-heading">I'm Sahit Berisha.</h2>;
+  const three = <h3 className="big-heading">Java Developer.</h3>;
   const four = (
     <>
       <p>
-      I’m a java developer with experience in delivering high-quality, 
-      maintainable code and a strong foundation in software development principles.
-        .
+        I’m a java developer with experience in delivering high-quality, maintainable code and a
+        strong foundation in software development principles.
       </p>
     </>
   );

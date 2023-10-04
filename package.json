@@ -18,10 +18,14 @@
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
+    "deploy": "gh-pages -d dist",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "prepare": "husky install",
     "lint-staged": "lint-staged"
+  },
+  "resolutions": {
+    "graphql": "^15.8.0"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
@@ -51,6 +55,7 @@
     "gatsby-source-filesystem": "^3.4.0",
     "gatsby-transformer-remark": "^4.1.0",
     "gatsby-transformer-sharp": "^3.4.0",
+    "gh-pages": "^6.0.0",
     "lodash": "^4.17.19",
     "prismjs": "^1.27.0",
     "prop-types": "^15.7.2",
