@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
+import { email } from '@config';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledHeroSection = styled.section`
@@ -72,18 +73,15 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a java developer with experience in delivering high-quality, maintainable code and a
-        strong foundation in software development principles.
+        I’m a Java developer with experience in delivering high-quality, maintainable code and a
+        strong foundation in software development principles. I'm a results-driven individual who
+        approaches every task with determination and a 'can-do' attitude.
       </p>
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Check out my course!
+    <a className="email-link" href={`mailto:${email}`} target="_blank" rel="noreferrer">
+      Get In Touch!
     </a>
   );
 
