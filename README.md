@@ -1,11 +1,11 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/sahitberisha/portfolio/main/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
   Portfolio
 </h1>
 <p align="center">
-  This is my Portfolio <a href="https://sahit.berisha.github.io" target="_blank">sahitberisha.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  This is my Portfolio <a href="https://sahit.berisha.github.io" target="_blank">sahitberisha.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://pages.github.com/" target="_blank">Github pages</a>
 </p>
 <p align="center">
   It was originally designed by <a href="https://github.com/bchiang7" target="_blank">Brittany Chiang</a> and can be found <a href="https://v4.brittanychiang.com/">here</a>

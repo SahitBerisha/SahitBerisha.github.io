@@ -8,7 +8,7 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledJobsSection = styled.section`
-  max-width: 700px;
+  max-width: 800px;
 
   .inner {
     display: flex;
@@ -164,11 +164,11 @@ const StyledTabPanel = styled.div`
   }
 `;
 
-const Jobs = () => {
+const Education = () => {
   const data = useStaticQuery(graphql`
     query {
-      jobs: allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/content/jobs/" } }
+      education: allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/content/education/" } }
         sort: { fields: [frontmatter___date], order: DESC }
       ) {
         edges {
@@ -187,7 +187,7 @@ const Jobs = () => {
     }
   `);
 
-  const jobsData = data.jobs.edges;
+  const jobsData = data.education.edges;
 
   const [activeTabId, setActiveTabId] = useState(0);
   const [tabFocus, setTabFocus] = useState(null);
@@ -244,7 +244,7 @@ const Jobs = () => {
 
   return (
     <StyledJobsSection id="jobs" ref={revealContainer}>
-      <h2 className="numbered-heading">Infinity Career: My Journey to Balance and Mastery</h2>
+      <h2 className="numbered-heading">Thor's Training Ground</h2>
 
       <div className="inner">
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>
@@ -307,4 +307,4 @@ const Jobs = () => {
   );
 };
 
-export default Jobs;
+export default Education;
