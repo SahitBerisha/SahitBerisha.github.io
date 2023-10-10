@@ -3,7 +3,7 @@ date: '1'
 title: 'Blog Web API'
 cover: './blog-web-api.png'
 github: 'https://github.com/SahitBerisha/blog-web-api'
-external: 'https://halcyon-theme.netlify.com/'
+external: 'https://github.com/SahitBerisha/blog-web-api'
 tech:
   - Java 8
   - Spring Boot

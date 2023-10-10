@@ -1,9 +1,9 @@
 ---
 date: '2'
 title: 'Quiz Web API'
-cover: './quarkus.jpg'
+cover: './swagger-ui.png'
 github: 'https://github.com/SahitBerisha/quiz-web-services'
-external: 'https://spotify-profile.herokuapp.com/'
+external: 'https://github.com/SahitBerisha/quiz-web-services'
 tech:
   - Java 8
   - Quarkus

@@ -2,7 +2,7 @@
 date: '3'
 title: 'Arduino Robot Car'
 cover: './arduino-robot-car.jpg'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+external: 'https://drive.google.com/file/d/130hcQYeVLKjfBIw5gSmH3mC-DHpVubzR/view?usp=sharing'
 tech:
   - C++
   - Arduino UNO

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
-import { email } from '@config';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledHeroSection = styled.section`
@@ -80,7 +79,7 @@ const Hero = () => {
     </>
   );
   const five = (
-    <a className="email-link" href={`mailto:${email}`} target="_blank" rel="noreferrer">
+    <a className="email-link" href="https://tally.so/r/3jeYr4" target="_blank" rel="noreferrer">
       Get In Touch!
     </a>
   );
